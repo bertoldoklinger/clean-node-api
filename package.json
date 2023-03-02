@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.8.2"
+  }
 }
