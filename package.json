@@ -1,16 +1,25 @@
 {
-  "name": "boilerplate",
+  "name": "clean-node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertoldoklinger/clean-node-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertoldoklinger/clean-node-api/issues"
+  },
+  "homepage": "https://github.com/bertoldoklinger/clean-node-api#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^4.8.2"
+    "@types/node": "^18.14.4",
+    "git-commit-msg-linter": "^4.8.2",
+    "typescript": "^4.9.5"
   }
 }
