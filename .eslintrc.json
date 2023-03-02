@@ -10,5 +10,7 @@
     "project": "./tsconfig.json",
     "ecmaVersion": "latest"
   },
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  }
 }
