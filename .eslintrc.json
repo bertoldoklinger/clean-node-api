@@ -16,6 +16,7 @@
     "@typescript-eslint/space-before-function-paren": "off",
     "@typescript-eslint/method-signature-style": "off",
     "no-multiple-empty-lines": "off",
-    "@typescript-eslint/prefer-nullish-coalescing": "off"
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/no-misused-promises": "off"
   }
 }
