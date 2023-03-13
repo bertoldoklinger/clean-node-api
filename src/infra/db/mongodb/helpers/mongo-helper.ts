@@ -2,12 +2,11 @@ import { Collection, MongoClient } from 'mongodb'
 
 export const MongoHelper = {
   client: null as unknown as MongoClient,
-  url: null as unknown as string,
 
 
-  async connect(url: string): Promise<void> {
-    this.url = url
-    this.client = await MongoClient.connect(url)
+
+  async connect(uri: string): Promise<void> {
+    this.client = await MongoClient.connect(uri)
   },
 
   async disconnect() {
